@@ -30,3 +30,4 @@ RUN \
   pip install -U pip pipenv uv && \
   curl -sSL https://install.python-poetry.org | python - && \
   rm -rf /var/lib/apt/lists/*
+RUN curl -fsSL https://antigravity.google/cli/install.sh | bash
